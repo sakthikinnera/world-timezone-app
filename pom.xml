@@ -38,6 +38,7 @@
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<muleVersion>4.3.0</muleVersion>
+				<objectStoreV2>true</objectStoreV2>
 				<applicationName>world-demo-api</applicationName>
 				</cloudHubDeployment>
 				
