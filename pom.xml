@@ -40,6 +40,7 @@
 				<muleVersion>4.3.0</muleVersion>
 				<applicationName>world-demo-api</applicationName>
 				</cloudHubDeployment>
+				
 				</configuration>
 			</plugin>
 		</plugins>
