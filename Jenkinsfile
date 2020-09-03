@@ -15,7 +15,7 @@ pipeline
       
    stage('Deploy Application To MuleSoft CloudHub'){
     steps{
-     bat 'mvn package deploy -DmuleDeploy -DEnvironment=${Environment}'
+     bat 'mvn package deploy -DmuleDeploy'
       }
       }
  }
