@@ -4,7 +4,6 @@ Pipeline
 stages{
 stage(‘Build Application’){
 steps{
-//sh ‘mvn clean install’--- for Linux
 bat ‘mvn clean install’
 }
 }
