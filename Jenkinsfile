@@ -9,7 +9,7 @@ pipeline
       }
       stage('Munit Testing Application'){
      steps{
-      bat 'mvn test'
+      bat 'mvn clean test'
       }
       }
       
